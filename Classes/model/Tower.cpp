@@ -12,3 +12,13 @@ bool Tower::init(int id)
 {
     return true;
 }
+
+void Tower::attack(float dt)
+{
+    //TODO
+}
+
+void Tower::setEnemies(Vector<Enemy *> *enemies)
+{
+    _enemies = *enemies;
+}

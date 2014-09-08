@@ -19,6 +19,9 @@ class LevelData : public Node
 public:
     CREATE_FUNC_I(LevelData);
     bool init(int id);
+public:
+    CC_SYNTHESIZE(int, _level, Level);
+    
 };
 
 #endif /* defined(__TowerDefenceBWXG__LevelData__) */

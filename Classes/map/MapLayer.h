@@ -19,6 +19,8 @@ class MapLayer : public Layer
 public:
     CREATE_FUNC_I(MapLayer);
     bool init(int id);
+public:
+    
 };
 
 

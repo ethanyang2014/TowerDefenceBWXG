@@ -12,13 +12,25 @@
 #include <iostream>
 
 #include "Defines.h"
+
+#include "TowerData.h"
+
+#include "Enemy.h"
+
 USING_NS_CC;
 
-class Tower : public Node
+class Tower : public TowerData
 {
 public:
     CREATE_FUNC_I(Tower);
     bool init(int id);
+public:
+    //攻击
+    void attack(float dt);
+public:
+    //敌人的引用
+    Vector<Enemy*> _enemies;
+    void setEnemies(Vector<Enemy*> *enemies);
 };
 
 

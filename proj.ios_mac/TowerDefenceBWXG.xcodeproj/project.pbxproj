@@ -83,6 +83,8 @@
 		F4162DAD19BBEB1D00339F54 /* TowerData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F4162DAB19BBEB1D00339F54 /* TowerData.cpp */; };
 		F4162DB119BBEE5400339F54 /* TemplateManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F4162DAF19BBEE5400339F54 /* TemplateManager.cpp */; };
 		F4162DB519BBF07E00339F54 /* Manager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F4162DB319BBF07E00339F54 /* Manager.cpp */; };
+		F4162DB819BBF5AA00339F54 /* iNotice.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F4162DB619BBF5AA00339F54 /* iNotice.cpp */; };
+		F430EE8F19BDF5260068AD65 /* PointItem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F430EE8D19BDF5260068AD65 /* PointItem.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -309,6 +311,10 @@
 		F4162DB019BBEE5400339F54 /* TemplateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TemplateManager.h; sourceTree = "<group>"; };
 		F4162DB319BBF07E00339F54 /* Manager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Manager.cpp; sourceTree = "<group>"; };
 		F4162DB419BBF07E00339F54 /* Manager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Manager.h; sourceTree = "<group>"; };
+		F4162DB619BBF5AA00339F54 /* iNotice.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = iNotice.cpp; path = ../Classes/iNotice.cpp; sourceTree = "<group>"; };
+		F4162DB719BBF5AA00339F54 /* iNotice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iNotice.h; path = ../Classes/iNotice.h; sourceTree = "<group>"; };
+		F430EE8D19BDF5260068AD65 /* PointItem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PointItem.cpp; sourceTree = "<group>"; };
+		F430EE8E19BDF5260068AD65 /* PointItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PointItem.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -391,6 +397,8 @@
 				1AFAF8B416D35DE700DB1158 /* AppDelegate.h */,
 				1AFAF8B516D35DE700DB1158 /* HelloWorldScene.cpp */,
 				1AFAF8B616D35DE700DB1158 /* HelloWorldScene.h */,
+				F4162DB619BBF5AA00339F54 /* iNotice.cpp */,
+				F4162DB719BBF5AA00339F54 /* iNotice.h */,
 			);
 			name = Classes;
 			path = ../classes;
@@ -554,6 +562,8 @@
 				F4162D7F19BB1ECE00339F54 /* MapData.h */,
 				F4162D8A19BB1FFD00339F54 /* MapLayer.cpp */,
 				F4162D8B19BB1FFD00339F54 /* MapLayer.h */,
+				F430EE8D19BDF5260068AD65 /* PointItem.cpp */,
+				F430EE8E19BDF5260068AD65 /* PointItem.h */,
 			);
 			name = map;
 			path = ../Classes/map;
@@ -818,12 +828,14 @@
 				F4162D8019BB1ECE00339F54 /* MapData.cpp in Sources */,
 				1AFAF8B716D35DE700DB1158 /* AppDelegate.cpp in Sources */,
 				F4162DB519BBF07E00339F54 /* Manager.cpp in Sources */,
+				F4162DB819BBF5AA00339F54 /* iNotice.cpp in Sources */,
 				F4162DB119BBEE5400339F54 /* TemplateManager.cpp in Sources */,
 				503AE10117EB989F00D1A890 /* main.m in Sources */,
 				F4162DA419BB270700339F54 /* Tower.cpp in Sources */,
 				F4162DAD19BBEB1D00339F54 /* TowerData.cpp in Sources */,
 				F4162DA719BB28BA00339F54 /* Bullet.cpp in Sources */,
 				1AFAF8B816D35DE700DB1158 /* HelloWorldScene.cpp in Sources */,
+				F430EE8F19BDF5260068AD65 /* PointItem.cpp in Sources */,
 				F4162D8319BB1FB900339F54 /* RunScene.cpp in Sources */,
 				F4162D9519BB209300339F54 /* Enemy.cpp in Sources */,
 				F4162D8619BB1FCB00339F54 /* GameHud.cpp in Sources */,
