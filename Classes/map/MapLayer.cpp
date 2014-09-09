@@ -12,3 +12,13 @@ bool MapLayer::init(int id)
 {
     return true;
 }
+
+void MapLayer::createEnemies(float dt)
+{
+    //TODO
+}
+
+void MapLayer::createEnemy(float dt)
+{
+    //TODO
+}

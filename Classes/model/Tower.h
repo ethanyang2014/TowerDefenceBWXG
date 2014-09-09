@@ -31,6 +31,8 @@ public:
     //敌人的引用
     Vector<Enemy*> _enemies;
     void setEnemies(Vector<Enemy*> *enemies);
+    //目标敌人
+    Enemy* _target;
 };
 
 

@@ -10,6 +10,7 @@
 
 bool Tower::init(int id)
 {
+    _target = nullptr;
     return true;
 }
 
