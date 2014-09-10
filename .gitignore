@@ -1,3 +1,5 @@
+HelloWorldScene.*
+AppDelegate.cpp
 *.obj
 *.exe
 *.pdb
