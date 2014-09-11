@@ -22,9 +22,9 @@ class TemplateManager : public Node
 private:
     Vector<ItemType*> _item_types;
 public:
-    Vector<ItemType*> getItemTypes()
+    Vector<ItemType*>* getItemTypes()
     {
-        return _item_types;
+        return &_item_types;
     }
     
     void insert(ItemType *_item_type)

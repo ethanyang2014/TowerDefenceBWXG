@@ -12,6 +12,7 @@
 #include <iostream>
 
 #include "Defines.h"
+
 USING_NS_CC;
 
 class Enemy : public Node
