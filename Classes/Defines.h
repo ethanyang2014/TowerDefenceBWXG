@@ -16,6 +16,9 @@
 #include "cocostudio/CocoStudio.h"
 #include "SimpleAudioEngine.h"
 
+#if (CC_TARGET_PLATFORM == CC_PLATFORM_WIN32)
+#include "CCStdC.h"
+#endif
 
 //lib
 //#include "iLayer.h"
