@@ -14,7 +14,7 @@
 #include "Defines.h"
 USING_NS_CC;
 
-#include "Enemy.h"
+#include "model/Enemy.h"
 
 /**
  *  1.每次小怪发生变化 更新塔对小怪列表的引用

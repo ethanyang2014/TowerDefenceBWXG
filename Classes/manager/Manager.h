@@ -15,11 +15,10 @@
 
 USING_NS_CC;
 
-#include "TemplateManager.h"
-
-#include "Enemy.h"
-#include "Tower.h"
-#include "Bullet.h"
+#include "template/TemplateManager.h"
+#include "model/Enemy.h"
+#include "model/Tower.h"
+#include "model/Bullet.h"
 
 #define EnemyManager TemplateManager<Enemy>
 #define TowerManager TemplateManager<Tower>

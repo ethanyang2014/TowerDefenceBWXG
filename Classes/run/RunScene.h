@@ -13,7 +13,7 @@
 
 #include "Defines.h"
 
-#include "Manager.h"
+#include "manager/Manager.h"
 
 USING_NS_CC;
 
