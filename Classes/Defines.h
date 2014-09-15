@@ -134,7 +134,7 @@ typedef struct _BoundingBox {
 
 inline float GetCurTime(){
 	timeval time;
-	gettimeofday(&time, NULL);
+	//gettimeofday(&time, NULL);
 	unsigned long millisecs = (time.tv_sec * 1000) + (time.tv_usec / 1000);
 	return (float)millisecs;
 };
