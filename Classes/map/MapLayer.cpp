@@ -14,7 +14,7 @@ bool MapLayer::init(int id)
     {
         TMXTiledMap* _map = TMXTiledMap::create("Theme1/BG1/BGPath.tmx");
         
-        SpriteFrameCache::getInstance()->addSpriteFramesWithFile("Theme1/BG1/BG-hd.plist");
+        SpriteFrameCache::getInstance()->addSpriteFramesWithFile("Theme1/BG1/BG-hd.plist", "Theme1/BG1/BG-hd.pvr.ccz");
         
         Sprite* bg = Sprite::createWithSpriteFrameName("skymap01.png");
         bg->setPosition(CENTER);
