@@ -12,9 +12,9 @@ bool MapLayer::init(int id)
 {
     if(Layer::init())
     {
-        TMXTiledMap* _map = TMXTiledMap::create("Theme1/BG1/BGPath.tmx");
+        TMXTiledMap* _map = TMXTiledMap::create("iResources/Theme1/BG1/BGPath.tmx");
         
-        SpriteFrameCache::getInstance()->addSpriteFramesWithFile("Theme1/BG1/BG-hd.plist", "Theme1/BG1/BG-hd.pvr.ccz");
+        SpriteFrameCache::getInstance()->addSpriteFramesWithFile("iResources/Theme1/BG1/BG-hd.plist");
         
         Sprite* bg = Sprite::createWithSpriteFrameName("skymap01.png");
         bg->setPosition(CENTER);
