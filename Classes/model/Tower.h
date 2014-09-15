@@ -13,9 +13,9 @@
 
 #include "Defines.h"
 
-#include "TowerData.h"
+#include "data/TowerData.h"
 
-#include "Enemy.h"
+#include "model/Enemy.h"
 
 USING_NS_CC;
 
