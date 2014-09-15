@@ -10,6 +10,12 @@
 
 bool RunScene::init()
 {
-
-    return true;
+    if(Scene::init())
+    {
+        
+        _mapLayer = MapLayer::create(0);
+        addChild(_mapLayer);
+        return true;
+    }
+    return false;
 }

@@ -58,10 +58,10 @@
 //
 // 生成随即数种子
 //
-#define srand()           cc_timeval psv; \
-CCTime::gettimeofdayCocos2d( &psv, NULL ); \
-unsigned int tsrans = psv.tv_sec * 1000 + psv.tv_usec / 1000; \
-srand( tsrans )
+//#define srand()           cc_timeval psv; \
+//CCTime::gettimeofdayCocos2d( &psv, NULL ); \
+//unsigned int tsrans = psv.tv_sec * 1000 + psv.tv_usec / 1000; \
+//srand( tsrans )
 
 // 2 - convenience functions
 #ifndef UINT64_C

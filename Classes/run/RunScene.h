@@ -17,12 +17,16 @@
 
 USING_NS_CC;
 
+#include "map/MapLayer.h"
+
 class RunScene : public Scene
 {
 public:
     CREATE_FUNC(RunScene);
     
     bool init();
+public:
+    MapLayer* _mapLayer;
 };
 
 #endif /* defined(__TowerDefenceBWXG__RunScene__) */

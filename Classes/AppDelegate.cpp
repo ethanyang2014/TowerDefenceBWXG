@@ -3,6 +3,8 @@
 
 USING_NS_CC;
 
+#include "run/RunScene.h"
+
 AppDelegate::AppDelegate() {
 
 }
@@ -33,7 +35,8 @@ bool AppDelegate::applicationDidFinishLaunching() {
     director->setAnimationInterval(1.0 / 60);
 
     // create a scene. it's an autorelease object
-    auto scene = HelloWorld::createScene();
+    //auto scene = HelloWorld::createScene();
+    auto scene = RunScene::create();
 
     // run
     director->runWithScene(scene);

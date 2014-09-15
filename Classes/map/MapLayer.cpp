@@ -10,7 +10,49 @@
 
 bool MapLayer::init(int id)
 {
+    if(Layer::init())
+    {
+        TMXTiledMap* _map = TMXTiledMap::create("Theme1/BG1/BGPath.tmx");
+        
+        SpriteFrameCache::getInstance()->addSpriteFramesWithFile("Theme1/BG1/BG-hd.plist");
+        
+        Sprite* bg = Sprite::createWithSpriteFrameName("skymap01.png");
+        bg->setPosition(CENTER);
+        addChild(bg, 1);
+        
+        return true;
+    }
     return true;
+}
+
+void MapLayer::onEnter()
+{
+    Layer::onEnter();
+}
+
+void MapLayer::onExit()
+{
+    Layer::onExit();
+}
+
+void MapLayer::removeEnemy(cocos2d::Ref *obj)
+{
+    
+}
+
+void MapLayer::addTower(cocos2d::Ref *obj)
+{
+    
+}
+
+void MapLayer::removeTower(cocos2d::Ref *obj)
+{
+    
+}
+
+void MapLayer::towerAttack(cocos2d::Ref *obj)
+{
+    
 }
 
 void MapLayer::createEnemies(float dt)
