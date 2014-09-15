@@ -26,7 +26,7 @@ bool AppDelegate::applicationDidFinishLaunching() {
     
     // turn on display FPS
     director->setDisplayStats(true);
-    FileUtils::getInstance()->addSearchPath("iResources");
+    FileUtils::getInstance()->addSearchPath("iResources/");
     
     // turn on display FPS
     director->setDisplayStats(true);
