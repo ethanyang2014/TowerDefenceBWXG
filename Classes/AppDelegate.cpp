@@ -20,6 +20,12 @@ bool AppDelegate::applicationDidFinishLaunching() {
         director->setOpenGLView(glview);
     }
 
+    glview->setDesignResolutionSize(960, 640, kResolutionExactFit);
+    
+    // turn on display FPS
+    director->setDisplayStats(true);
+    FileUtils::getInstance()->addSearchPath("iResources");
+    
     // turn on display FPS
     director->setDisplayStats(true);
 
