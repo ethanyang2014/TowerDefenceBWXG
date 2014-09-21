@@ -18,3 +18,4 @@ _ReSharper*/
 *.sdf
 *.opensdf
 [Cc]ocos2d/
+*.sln
