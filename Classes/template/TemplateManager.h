@@ -19,7 +19,7 @@ template <class ItemType>
 
 class TemplateManager : public Node
 {
-private:
+protected:
     Vector<ItemType*> _item_types;
 public:
     Vector<ItemType*>* getItemTypes()
