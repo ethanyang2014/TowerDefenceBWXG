@@ -19,3 +19,5 @@ _ReSharper*/
 *.opensdf
 [Cc]ocos2d/
 *.sln
+*.vcxproj
+*.filters
