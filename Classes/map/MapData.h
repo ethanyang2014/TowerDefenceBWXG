@@ -1,4 +1,4 @@
-//
+﻿//
 //  MapData.h
 //  TowerDefenceBWXG
 //
@@ -27,16 +27,16 @@ USING_NS_CC;
 class MapData : public Node
 {
 public:
-    CREATE_FUNC_I(MapData);
-    bool init(int id);
+	CREATE_FUNC_I(MapData);
+	bool init(int id);
 public:
-    //0 不放置塔 1可以放置塔 2已经放置塔
-    int map_data[MAP_YN][MAP_XN];
-    //初始化可以放置塔的位置
-    void initTower();
-    //路径
-    Vector<PointItem*> _route;
-    void initRoute();
+	//0 不放置塔 1可以放置塔 2已经放置塔
+	int map_data[MAP_YN][MAP_XN];
+	//初始化可以放置塔的位置
+	void initTower();
+	//路径
+	Vector<PointItem*> _route;
+	void initRoute();
 };
 
 #endif /* defined(__TowerDefenceBWXG__MapData__) */

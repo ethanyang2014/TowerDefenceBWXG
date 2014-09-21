@@ -15,7 +15,7 @@ bool MapData::init(int id)
 
 void MapData::initTower()
 {
-    
+
 }
 
 void MapData::initRoute()
