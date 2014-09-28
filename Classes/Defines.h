@@ -1,4 +1,4 @@
-//
+﻿//
 //  Defines.h
 //  Parkour
 //
