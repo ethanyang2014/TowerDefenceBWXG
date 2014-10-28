@@ -50,8 +50,8 @@
 
 #define NC_ADD(this, callfuncO_selector, str, nullptr) NotificationCenter::getInstance()->addObserver(this, callfuncO_selector, str, nullptr)
 
-//#define NC_POST(str) NotificationCenter::getInstance()->postNotification(str)
-#define NC_POST(str, obj) NotificationCenter::getInstance()->postNotification(str, obj)
+#define NC_POST(str) NotificationCenter::getInstance()->postNotification(str)
+#define NC_POST_N(str, obj) NotificationCenter::getInstance()->postNotification(str, obj)
 
 #define NC_REM(this, str)  NotificationCenter::getInstance()->removeObserver(this, str)
 
@@ -239,5 +239,11 @@ static inline int stringToInt(std::string str)
     int pInt = atoi(c);
     return pInt;
 }
+
+#define ADD_MONSTER_WAVE "add_monster_wave"
+#define SET_SPEED_1X "set_speed_1x"
+#define SET_SPEED_2X "set_speed_2x"
+#define SET_GAME_PAUSE "set_game_pause"
+#define SET_GAME_CONTINUE "set_game_continue"
 
 #endif
